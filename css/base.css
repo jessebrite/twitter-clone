@@ -138,11 +138,14 @@ ul#feed .action-list {
 	padding-left: 1em;
 }
 ul#feed .action-list a {
-	width: 15%;
+	width: 22%;
 	display: inline-block;
 }
 ul#feed .action-list a:hover {
 	text-decoration: none;
+}
+ul#feed .action-list span.fa-share-alt {
+	margin-left: 40%;
 }
 ul#feed .action-list .retweet-count {
 	padding-left: 0.2em;
