@@ -1,0 +1,104 @@
+.bg-light {
+    background-color: skyblue !important;
+    color: #fff;
+}
+.navbar-brand img {
+	width: 120px;
+}
+.navbar-nav a {
+	margin: 2px 10px 2px 10px;
+	font-size: 1.5em;
+	color: #fff !important;
+}
+.navbar-nav a.active {
+	margin: 2px 10px 2px 10px;
+	font-size: 1.5em;
+	border-bottom: 0.05em solid #FFF;
+}
+.navbar-nav a:hover {
+	color: azure !important;
+}
+.navbar-nav .badge {
+	color: #2F92CA;
+	background-color: #FFF;
+	font-size: 0.7em;
+	padding: 0.07rem 0.4rem 0.2rem 0.4rem;
+	position: absolute;
+	left: 18.77rem;
+	top: 0.7rem;
+	z-index: 99;
+	border-radius: 100%;
+	border: 0.2rem solid skyblue;
+}
+nav form#search .input-group .form-control {
+	border-radius: 1.25em;
+}
+nav form#search .fa-search {
+	position: absolute;
+	right: 0.7em;
+	top: 50%;
+	margin-top: -0.44em;
+	color: black;
+}
+nav a.nav-link img {
+	max-height: 2.3em;
+	border-radius: 0.3em;
+	margin-left: 40px: 
+}
+nav div.dropdown {
+	background-color: skyblue;
+	color: gold;
+}
+#tweet {
+	margin: 0.5em;
+	background-color: white;
+	border-radius: 15px;
+}
+.card-block img.card-img {
+	top: 20%;
+	margin: -36px 0 0 10px;
+	width: 72px;
+	border: 3px solid #FFF;
+	border-radius: 0.4rem;
+	float: left;
+	/*position: absolute;*/
+	/*z-index: 99;*/
+}
+.card-block .card-title {
+	float: left;
+	margin-left: 0.5em;
+}
+.card-block .card-title small {
+	display: block;
+}
+.card-block .card-text {
+	clear: both;
+	padding-top: 0.25em;
+	margin-bottom: 1.5em;
+}
+.card-block ul a:hover {
+	text-decoration: none;
+}
+.card-block li,
+.card-block p {
+	margin-left: 10px;
+}
+.card-block ul .profile-stats {
+	color: #777;
+	display: block;
+	text-transform: uppercase;
+	font-size: 0.63em;
+}
+.card-block ul .profile-value {
+	color: #000;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #2F92CA;
+}
+div#profile-photo {
+	margin-top: 20px;
+}
+div#profile-photo li#card-thumbnail {
+	width: 40%;
+	margin: 12px 0 10px 18px;
+}
