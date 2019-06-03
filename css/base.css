@@ -151,3 +151,38 @@ ul#feed .action-list .retweet-count {
 	padding-left: 0.2em;
 	font-weight: bold;
 }
+ol.breadcrumb a:hover {
+	text-decoration: none;
+	color: mediumblue;
+}
+div#who-follow li {
+	margin-bottom: 2em;
+}
+div#who-follow li:last-child {
+	margin-bottom: 0;
+}
+div#who-follow li img {
+	width: 26%;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 2%;
+}
+div#who-follow li .info {
+	width: 68%;
+	display: inline-block;
+}
+div#who-follow li .info strong {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+div#who-follow li .info .fa-plus {
+	color: #2F92CA;;
+}
+
+div#who-follow li .info button {
+	border: 0.5px solid black;	
+}
+div#app-info {
+	margin-top: 2rem;
+}
